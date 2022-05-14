@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="154" viewBox="0 0 212 154">
+  <g id="progress_time" data-name="progress time" transform="translate(-1380 -547)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="212" height="154" rx="25" transform="translate(1380 547)" fill="#fff"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="16" height="75" rx="8" transform="translate(1425 581)" fill="rgba(255,79,81,0.24)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="16" height="75" rx="8" transform="translate(1455 581)" fill="rgba(255,79,81,0.24)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="15" height="75" rx="7.5" transform="translate(1486 581)" fill="rgba(255,79,81,0.24)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="15" height="75" rx="7.5" transform="translate(1516 581)" fill="rgba(255,79,81,0.24)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="15" height="75" rx="7.5" transform="translate(1546 581)" fill="rgba(255,79,81,0.24)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="16" height="70" rx="8" transform="translate(1425 586)" fill="#ff4f51"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="16" height="55" rx="8" transform="translate(1455 601)" fill="#ff4f51"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="15" height="28" rx="7.5" transform="translate(1486 628)" fill="#ff4f51"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="15" height="65" rx="7.5" transform="translate(1516 591)" fill="#ff4f51"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="15" height="38" rx="7.5" transform="translate(1546 618)" fill="#ff4f51"/>
+    <text id="Group_Time" data-name="Group Time" transform="translate(1457 685)" fill="#2e363f" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Group Time</tspan></text>
+  </g>
+</svg>

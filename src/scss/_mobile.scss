@@ -1,0 +1,12 @@
+@media screen and (max-width:768px) {
+    .navbar{
+        .center-listItems,
+        .right-listItems{
+        display: none;
+        }
+
+        .hamburger{
+        display:block;
+        }
+    }
+}

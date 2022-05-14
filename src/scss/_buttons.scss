@@ -1,0 +1,20 @@
+%btn{
+border: none;
+cursor: pointer;
+background-color: transparent;
+transition: all 250ms ease-in-out;
+font-size: $fs-14px;
+
+&:focus{outline: none;}
+}
+
+.times-btn,
+.hamburger-btn{
+@extend %btn;
+color: $gray-900;
+font-size:1.5rem;
+
+&:hover{
+color:$gray-500;
+}
+}

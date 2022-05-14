@@ -1,0 +1,41 @@
+//Generate paddings and margins
+$amounts:1rem,2rem,2,2rem,3rem,4rem,5rem;
+
+@each $amount in $amounts{
+    .p-#{$amount}{
+    padding: $amount;
+    }
+    .m-#{$amount}{
+    margin:$amount;
+    }
+    .px-#{$amount}{
+    padding:0 $amount;
+    }
+    .mx-#{$amount}{
+    margin:0 $amount;
+    }
+    .py-#{$amount}{
+    padding:$amount 0;
+    }
+    .my-#{$amount}{
+    margin:$amount 0;
+    }
+    .pt-#{$amount}{
+    padding-top:$amount;
+    }
+    .mt-#{$amount}{
+    margin-top:$amount;
+    }
+    .pl-#{$amount}{
+    padding-left:$amount;
+    }
+    .ml-#{$amount}{
+    margin-left:$amount;
+    }
+    .pr-#{$amount}{
+    padding-right:$amount;
+    }
+    .mr-#{$amount}{
+    margin-right:$amount;
+    }
+}
