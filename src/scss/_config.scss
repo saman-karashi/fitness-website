@@ -3,10 +3,15 @@
 //Font sizes
 $fs-14px:.875rem;
 $fs-16px:1rem;
+$fs-32px:1.875rem;
 
 //Colors
+$gray-300:#EDEEF0;
 $gray-400:#BCBCBC;
 $gray-500:#7A7A7A;
 $gray-900:#2E363F;
 $orange-400:#FF6B01;
 $red-400:#FF4F51;
+
+//Transitions
+$transition-500ms:all 500ms linear 500ms;

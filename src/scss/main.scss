@@ -11,26 +11,25 @@ a{
 text-decoration: none;
 }
 
+img{
+max-width: 100%;
+object-fit: cover;
+}
+
 body {
 overflow-x: hidden;
 background-color:#fff;
 }
 
-.container{
-max-width: 1200px;
-margin: 0 auto;
-}
-
-.flex{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
 
 @import './buttons.scss';
 
 @import './_utilities.scss';
 
 @import '../components/navbar/_Navbar.scss';
+
+@import '../components/hero-section/HeroSection.scss';
+
+@import '../components/footer/_Footer.scss';
 
 @import './_mobile.scss';

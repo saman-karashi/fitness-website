@@ -13,7 +13,7 @@ if(isOpen && width > 768) setIsOpen(false)
 const menuClass = isOpen && width <=768 ? 'menu open' : 'menu'; 
 
   return (
-    <nav className='p-1rem navbar'>
+    <nav className='navbar p-1rem'>
       {/* Container */}
       <div className='container flex'>
         <div className='logo'>
@@ -34,7 +34,7 @@ const menuClass = isOpen && width <=768 ? 'menu open' : 'menu';
           <a href='/contact'>Contact</a>
         </div>
         {/* Mobile hamburger */}
-        <div className='hamburger'>
+        <div className='hamburger '>
           <button className='hamburger-btn' onClick={()=> setIsOpen(true)}>
             <FaBars />
           </button>

@@ -1,7 +1,6 @@
 %btn{
 border: none;
 cursor: pointer;
-background-color: transparent;
 transition: all 250ms ease-in-out;
 font-size: $fs-14px;
 
@@ -13,8 +12,39 @@ font-size: $fs-14px;
 @extend %btn;
 color: $gray-900;
 font-size:1.5rem;
+background-color: transparent;
 
 &:hover{
 color:$gray-500;
 }
+}
+
+.playStore-btn,
+.appleStore-btn,
+.tutorial-btn,
+.session-btn{
+@extend %btn;
+display: flex;
+align-items: center;
+color: #fff;
+border-radius: 15px;
+background-color: $gray-900;
+padding:.75rem 2rem;
+
+&:hover{
+filter: opacity(0.8);
+}
+
+}
+
+.playStore-btn,
+.appleStore-btn{
+color:#fff;
+}
+
+.tutorial-btn,
+.session-btn{
+color: $gray-500;
+background-color: rgba($color: #fff, $alpha: 0.8);
+box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.2);
 }

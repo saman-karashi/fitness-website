@@ -9,4 +9,24 @@
         display:block;
         }
     }
+
+    .hero-section{
+     .flex{
+     flex-direction: column-reverse;
+     }
+
+     .left-section{
+    .heading{
+    text-align: center;
+    } 
+
+    .text{
+    text-align: center;
+    }
+
+    .buttons{
+    justify-content: center;
+    }
+     }
+    }
 }

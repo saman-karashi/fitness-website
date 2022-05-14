@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.733" height="22.536" viewBox="0 0 19.733 22.536">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2" data-name="Path 2" d="M16.816,8.118,12.1,5.4S3.513.436,3.008.145,2,.03,2,.638V22.031c0,.457.361.655.8.4l9.3-5.373,4.714-2.721,4.533-2.617c.531-.306.481-.727.032-.97S16.816,8.118,16.816,8.118Z" transform="translate(-2 -0.008)"/>
+    </clipPath>
+  </defs>
+  <g id="play-icon" transform="translate(-2 -0.008)">
+    <g id="Group_1" data-name="Group 1" transform="translate(2 0.008)" clip-path="url(#clip-path)">
+      <path id="Path_1" data-name="Path 1" d="M2-.5V22.657l11.68-11.58Z" transform="translate(-2 0.143)" fill="#2cafa2"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(2 0.008)" clip-path="url(#clip-path)">
+      <path id="Path_3" data-name="Path 3" d="M16.816,7.931,12.1,5.209,2-.624v.085L13.68,11.041Z" transform="translate(-2 0.179)" fill="#77e888"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(2 0.008)" clip-path="url(#clip-path)">
+      <path id="Path_5" data-name="Path 5" d="M2,27.512V27.6l10.1-5.833,4.714-2.721L13.68,15.932Z" transform="translate(-2 -4.712)" fill="#cc3a72"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(2 0.008)" clip-path="url(#clip-path)">
+      <path id="Path_7" data-name="Path 7" d="M21.713,11.518l-3.136,3.11,3.136,3.111L27.1,14.628Z" transform="translate(-6.897 -3.408)" fill="#ea9053"/>
+    </g>
+  </g>
+</svg>
