@@ -29,4 +29,28 @@
     }
      }
     }
+
+    .footer{
+    margin: 5rem 0 0 0;
+        .flex{
+            flex-direction: column-reverse;
+        }
+     .gym-info{
+        flex-direction: column;
+        background-color: transparent;
+
+     article{
+        margin: 1.5rem 0;
+     }
+
+     article:last-child{
+        margin: 0;
+     }
+     }
+
+     .extra-info{
+     text-align: center;
+     margin: 0;
+     }
+    }
 }
