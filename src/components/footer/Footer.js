@@ -1,14 +1,24 @@
-import React from 'react';
+import {useEffect} from 'react';
 import timer_img from '../../assets/timer-icon.png';
 import dish_img from '../../assets/dish-icon.png';
 import dumbell_img from '../../assets/dumbell-icon.png';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+useEffect(()=>{
+AOS.init({
+duration:1000,
+easing:'ease-in-out',
+once:true
+})
+},[])
+
   return (
-    <footer className='footer my-5rem'>
+    <footer className='footer my-5rem p-1rem'>
       <div className='container flex'>
         <div className='gym-info p-2rem'>
-          <article>
+          <article data-aos="new-animation">
             <img src={dumbell_img} alt='Private session' />
             <h5>Private Session</h5>
             <p>
@@ -16,7 +26,7 @@ const Footer = () => {
               training program where all <br /> bodies can move.
             </p>
           </article>
-          <article>
+          <article data-aos="new-animation">
             <img src={timer_img} alt='Private session' />
             <h5>Group Class</h5>
             <p>
@@ -24,7 +34,7 @@ const Footer = () => {
               types.
             </p>
           </article>
-          <article>
+          <article data-aos="new-animation">
             <img src={dish_img} alt='Private session' />
             <h5>Program & Diet</h5>
             <p>
@@ -34,8 +44,8 @@ const Footer = () => {
         </div>
 
         <div className='extra-info ml-5rem'>
-          <h4 className='mb-1rem'>Training <br /> Programs <br /> we offer for you.</h4>
-          <p>
+          <h4  data-aos='fade-down'>Training <br /> Programs <br /> we offer for you.</h4>
+          <p data-aos='fade-up'>
             Starting a fitness routine can be intimidating, but it helps to have
             an <br /> idea of what to expect before joining <br /> any class.
           </p>

@@ -8,9 +8,9 @@ const Navbar = () => {
 const [isOpen , setIsOpen] = useState(false);
 const width = useWindowSize();
 
-if(isOpen && width > 768) setIsOpen(false)
+if(isOpen && width > 1000) setIsOpen(false)
 
-const menuClass = isOpen && width <=768 ? 'menu open' : 'menu'; 
+const menuClass = isOpen && width <= 1000 ? 'menu open' : 'menu'; 
 
   return (
     <nav className='navbar p-1rem'>

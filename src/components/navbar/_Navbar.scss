@@ -1,8 +1,10 @@
 .navbar{
     .logo{
+        text-align: left;
         .sub-logo{
         color:$gray-400;
         font-size:$fs-14px;
+        white-space:nowrap;
         }
     }
     div{
