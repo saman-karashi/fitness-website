@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fitness-website/static/css/main.ea2ee864.css",
-    "main.js": "/fitness-website/static/js/main.01b9a8a7.js",
+    "main.css": "/fitness-website/static/css/main.cf275183.css",
+    "main.js": "/fitness-website/static/js/main.a2dd3aba.js",
     "static/media/hero-section-bc.png": "/fitness-website/static/media/hero-section-bc.309b052793cc0c21fa78.png",
     "static/media/logo-path.svg": "/fitness-website/static/media/logo-path.037d12640461571129fdae156863f6a7.svg",
     "index.html": "/fitness-website/index.html",
-    "main.ea2ee864.css.map": "/fitness-website/static/css/main.ea2ee864.css.map",
-    "main.01b9a8a7.js.map": "/fitness-website/static/js/main.01b9a8a7.js.map"
+    "main.cf275183.css.map": "/fitness-website/static/css/main.cf275183.css.map",
+    "main.a2dd3aba.js.map": "/fitness-website/static/js/main.a2dd3aba.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea2ee864.css",
-    "static/js/main.01b9a8a7.js"
+    "static/css/main.cf275183.css",
+    "static/js/main.a2dd3aba.js"
   ]
 }
